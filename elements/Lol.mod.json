@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "nuibari",
+    "customModelName": "nuibari:default",
+    "name": "Lol",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Weapons"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 99100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

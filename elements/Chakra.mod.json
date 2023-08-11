@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "chakra_guif.png",
+          "use1Xscale": false,
+          "x": 264,
+          "y": 9
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 1,
+      "sy": 1,
+      "ox": 1,
+      "oy": 1,
+      "snapOnGrid": false
+    }
+  }
+}

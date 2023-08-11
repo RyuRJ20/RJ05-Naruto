@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "rjs_naruto:block/i_ce_portal_ew"
+    },
+    "axis=x": {
+      "model": "rjs_naruto:block/i_ce_portal_ns"
+    }
+  }
+}

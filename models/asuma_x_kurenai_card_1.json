@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "effects:items/asuma_x_kurenai_card_1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/kusanagi",
+  "textures": {
+    "6": "rjs_naruto:blocks/kusanagi",
+    "particle": "rjs_naruto:items/kusanagi"
+  }
+}

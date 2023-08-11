@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Naruto GUI",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "NarutoGUIOnKeyPressed"
+    }
+  }
+}

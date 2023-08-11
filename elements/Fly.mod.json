@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Fly",
+    "icon": "frust.png",
+    "color": {
+      "value": -13312,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "FlyEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "FlyEffectStartedapplied"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "rjs_naruto:custom/nuibari",
+  "textures": {
+    "0": "rjs_naruto:blocks/kubikiribocho",
+    "1": "rjs_naruto:blocks/",
+    "2": "rjs_naruto:blocks/",
+    "3": "rjs_naruto:blocks/",
+    "particle": "rjs_naruto:items/nuibari"
+  }
+}

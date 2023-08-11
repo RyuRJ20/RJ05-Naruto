@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/bone_sword_1",
+  "textures": {
+    "5": "rjs_naruto:blocks/bone_sword_1",
+    "particle": "rjs_naruto:items/bone_sword_1"
+  }
+}

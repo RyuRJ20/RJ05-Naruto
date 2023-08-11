@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "bone_sword_1",
+    "customModelName": "bone_sword_1:default",
+    "name": "Bone Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Weapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

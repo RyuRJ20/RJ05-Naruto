@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/kubikiribocho",
+  "textures": {
+    "3": "rjs_naruto:blocks/kubikiribocho",
+    "particle": "rjs_naruto:items/kubikiribocho"
+  }
+}

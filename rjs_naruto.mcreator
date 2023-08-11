@@ -1,0 +1,1597 @@
+{
+  "mod_elements": [
+    {
+      "name": "Naruto",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/client/gui/NarutoScreen.java",
+          "src/main/java/net/mcreator/rjsnaruto/world/inventory/NarutoMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "DimensionRealese",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_realese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/DimensionRealeseItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/dimension_realese.json"
+        ]
+      }
+    },
+    {
+      "name": "ICe",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_ce",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/i_ce.json",
+          "src/main/java/net/mcreator/rjsnaruto/world/teleporter/ICeTeleporter.java",
+          "src/main/java/net/mcreator/rjsnaruto/world/dimension/ICeDimension.java",
+          "src/main/resources/assets/rjs_naruto/models/block/i_ce_portal_ns.json",
+          "src/main/resources/assets/rjs_naruto/models/block/i_ce_portal_ew.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/ICeItem.java",
+          "src/main/resources/assets/rjs_naruto/blockstates/i_ce_portal.json",
+          "src/main/resources/data/rjs_naruto/dimension_type/i_ce.json",
+          "src/main/java/net/mcreator/rjsnaruto/world/teleporter/ICePortalShape.java",
+          "src/main/java/net/mcreator/rjsnaruto/block/ICePortalBlock.java",
+          "src/main/resources/data/rjs_naruto/dimension/i_ce.json"
+        ]
+      }
+    },
+    {
+      "name": "DimensionRealeseRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_realese_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/DimensionRealeseRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DimensionRealeseEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_realese_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/DimensionRealeseEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NarutoGUI",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/network/NarutoGUIMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "FlyEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FlyEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/potion/FlyMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "RinneganFlyItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinnegan_fly_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/RinneganFlyItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RinneganFly",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinnegan_fly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/rinnegan_fly.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/RinneganFlyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tab",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/tab.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/TabItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NarutoAbilities",
+      "type": "tab",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_abilities",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NarutoGUIOnKeyPressed",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_gui_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/NarutoGUIOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lol",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/lol.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/LolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nuibari",
+      "type": "rangeditem",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuibari",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NuibariItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/NuibariEntity.java",
+          "src/main/resources/assets/rjs_naruto/models/item/nuibari.json"
+        ]
+      }
+    },
+    {
+      "name": "NuibariRangedItemUsed",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuibari_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/NuibariRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuibariProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuibari_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/NuibariProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chakra",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakra",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/client/gui/ChakraOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Lightning",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/client/particle/LightningParticle.java",
+          "src/main/resources/assets/rjs_naruto/particles/lightning.json"
+        ]
+      }
+    },
+    {
+      "name": "Capybara",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/entity/CapybaraEntity.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/CapybaraRenderer.java",
+          "src/main/resources/assets/rjs_naruto/models/item/capybara_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "painting",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NarutoKurama1",
+      "type": "painting",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_kurama_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Sasuke1",
+      "type": "painting",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasuke_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "NarutoSage1",
+      "type": "painting",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_sage_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SasukeItachi1",
+      "type": "painting",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasuke_itachi_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SasukeItachi2",
+      "type": "painting",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasuke_itachi_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SasukeItachi3",
+      "type": "painting",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasuke_itachi_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Itachi1",
+      "type": "painting",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachi_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Itachi2",
+      "type": "painting",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachi_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji1",
+      "type": "painting",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji2",
+      "type": "painting",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji3",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji4",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji5",
+      "type": "painting",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_5",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji6",
+      "type": "painting",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_6",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji7",
+      "type": "painting",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_7",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji8",
+      "type": "painting",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_8",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji9",
+      "type": "painting",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_9",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji10",
+      "type": "painting",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_10",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji11",
+      "type": "painting",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_11",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji12",
+      "type": "painting",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_12",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji13",
+      "type": "painting",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_13",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji14",
+      "type": "painting",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_14",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji15",
+      "type": "painting",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_15",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji16",
+      "type": "painting",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_16",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji17",
+      "type": "painting",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_17",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji18",
+      "type": "painting",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_18",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji19",
+      "type": "painting",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_19",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji20",
+      "type": "painting",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_20",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji21",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_21",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji22",
+      "type": "painting",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_22",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji23",
+      "type": "painting",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_23",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji24",
+      "type": "painting",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_24",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji25",
+      "type": "painting",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_25",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji26",
+      "type": "painting",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_26",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji27",
+      "type": "painting",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_27",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji28",
+      "type": "painting",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_28",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji29",
+      "type": "painting",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_29",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji30",
+      "type": "painting",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_30",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji31",
+      "type": "painting",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_31",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji32",
+      "type": "painting",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_32",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji33",
+      "type": "painting",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_33",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji34",
+      "type": "painting",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_34",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji35",
+      "type": "painting",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_35",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji36",
+      "type": "painting",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_36",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji37",
+      "type": "painting",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_37",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji38",
+      "type": "painting",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_38",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji39",
+      "type": "painting",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_39",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji40",
+      "type": "painting",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_40",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji41",
+      "type": "painting",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_41",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji42",
+      "type": "painting",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_42",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji43",
+      "type": "painting",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_43",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji44",
+      "type": "painting",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_44",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji45",
+      "type": "painting",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_45",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MountFuji46",
+      "type": "painting",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_fuji_46",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "NarutoCard1",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard1Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_1.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCards",
+      "type": "tab",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_cards",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "TabItem1",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab_item_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/tab_item_1.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/TabItem1Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard2",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_2.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard2Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard3",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard3Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_3.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard4",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_4.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard4Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard5",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard5Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_5.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard6",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard6Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_6.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard7",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard7Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_7.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard8",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_8.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard8Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard9",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard9Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_9.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard10",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_10.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard10Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard11",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard11Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_11.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard12",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_12.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard12Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard13",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard13Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_13.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard14",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_14",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard14Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_14.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard15",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_15",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard15Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_15.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard16",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_16",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_16.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard16Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard17",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_17",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard17Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_17.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard18",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_18",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_18.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard18Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard19",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_19",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard19Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_19.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard20",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_20",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_20.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard20Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "NarutoCard21",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_21",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_21.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard21Item.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "Kubukiribocho",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kubukiribocho",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/kubukiribocho.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/KubukiribochoItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Weapons",
+      "type": "tab",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "Kusanagi",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kusanagi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/KusanagiItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/kusanagi.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BoneSword",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/BoneSwordItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/bone_sword.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "FirballTest",
+      "type": "rangeditem",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firball_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/FirballTestItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/FirballTestRenderer.java",
+          "src/main/resources/assets/rjs_naruto/models/item/firball_test.json",
+          "src/main/java/net/mcreator/rjsnaruto/entity/FirballTestEntity.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "FirballTestWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firball_test_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FirballTestWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "FirballTestProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firball_test_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FirballTestProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.rjs_naruto.naruto.label_skills": "Skills",
+      "item.rjs_naruto.firball_test": "Firball Test",
+      "entity.rjs_naruto.capybara": "Capybara",
+      "item.rjs_naruto.kusanagi": "Kusanagi",
+      "item.rjs_naruto.naruto_card_7": "Shukaku Card",
+      "item.rjs_naruto.naruto_card_8": "Matatabi Card",
+      "item.rjs_naruto.naruto_card_9": "Isobu Card",
+      "item.rjs_naruto.i_ce": "I Ce Portal Igniter",
+      "item.rjs_naruto.naruto_card_3": "Itachi Anbu Card",
+      "item.rjs_naruto.naruto_card_20": "Naruto Child Card",
+      "item.rjs_naruto.naruto_card_4": "Konan Paper Card",
+      "item.rjs_naruto.naruto_card_5": "Pain Card",
+      "item.rjs_naruto.naruto_card_6": "Madara Card",
+      "item.rjs_naruto.naruto_card_21": "Kakashi Anbu Card",
+      "item.rjs_naruto.tab": "Tab",
+      "item.rjs_naruto.naruto_card_1": "Sasuke Chidori Card",
+      "item.rjs_naruto.naruto_card_2": "Nagato Card",
+      "item.rjs_naruto.naruto_card_17": "Minato Card",
+      "item.rjs_naruto.lol": "Lol",
+      "item.rjs_naruto.naruto_card_16": "Hagoromo Card",
+      "item.rjs_naruto.naruto_card_19": "Kisame Card",
+      "item.rjs_naruto.naruto_card_18": "Jiraiya Card",
+      "item.rjs_naruto.dimension_realese": "Dimension Realese",
+      "item.rjs_naruto.naruto_card_13": "Chomei Card",
+      "item.rjs_naruto.naruto_card_12": "Saiken Card",
+      "item.rjs_naruto.naruto_card_15": "Kurama Card",
+      "item.rjs_naruto.naruto_card_14": "Gyuki Card",
+      "gui.rjs_naruto.naruto.button_chakra_control": "Chakra Control",
+      "item.rjs_naruto.capybara_spawn_egg": "Capybara Spawn Egg",
+      "gui.rjs_naruto.naruto.button_kenjutsu": "Kenjutsu",
+      "item.rjs_naruto.naruto_card_11": "Kokuo Card",
+      "key.rjs_naruto.naruto_gui": "Naruto GUI",
+      "item.rjs_naruto.naruto_card_10": "Songoku Card",
+      "item.rjs_naruto.tab_item_1": "Tab Item 1",
+      "itemGroup.tabnaruto_cards": "Naruto Cards",
+      "item.rjs_naruto.nuibari": "Nuibari",
+      "item.rjs_naruto.bone_sword": "Bone Sword",
+      "itemGroup.tabweapons": "Weapons",
+      "item.rjs_naruto.rinnegan_fly": "Rinnegan Fly",
+      "item.rjs_naruto.kubukiribocho": "Kubukiribocho",
+      "effect.rjs_naruto.fly": "Fly",
+      "itemGroup.tabnaruto_abilities": "Naruto Abilities"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gui",
+        "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
+      },
+      {
+        "name": "sutom Items",
+        "children": []
+      },
+      {
+        "name": "CreativeTabs",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Abilities",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rjs_naruto",
+    "modName": "RJ05´s Naruto",
+    "version": "1.0.0",
+    "author": "ReneJ, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.rjsnaruto",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

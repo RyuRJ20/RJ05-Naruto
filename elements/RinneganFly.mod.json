@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "rinnegan-lac-lacrinnelol",
+    "customModelName": "Normal",
+    "name": "Rinnegan Fly",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:NarutoAbilities"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 99990,
+    "toolType": 1.0,
+    "damageCount": 99990,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "onItemInInventoryTick": {
+      "name": "RinneganFlyItemInInventoryTick"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

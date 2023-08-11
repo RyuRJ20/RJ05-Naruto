@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Naruto Cards",
+    "icon": {
+      "value": "CUSTOM:TabItem1"
+    },
+    "showSearch": true
+  }
+}

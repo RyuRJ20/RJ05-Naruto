@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/fire_release",
+  "textures": {
+    "1": "rjs_naruto:blocks/fire_release",
+    "particle": "rjs_naruto:items/fire_release"
+  }
+}
