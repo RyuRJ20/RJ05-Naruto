@@ -1,0 +1,21 @@
+newmtl None
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+map_Kd rjs_naruto:blocks/texturescom_metalscratches0086_4_seamless_s
+Ns 0.0
+d 1.0
+newmtl None_Whit_Cloth.jpg.001
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+map_Kd rjs_naruto:blocks/texturescom_leather0067_1_seamless_s
+Ns 0.0
+d 1.0
+newmtl None_steel.jpg.001
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+map_Kd rjs_naruto:blocks/texturescom_metalscratches0086_4_seamless_s
+Ns 0.0
+d 1.0

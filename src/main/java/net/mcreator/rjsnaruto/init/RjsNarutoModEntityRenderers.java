@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.rjsnaruto.client.renderer.LightningballRenderer;
+import net.mcreator.rjsnaruto.client.renderer.KibaRenderer;
 import net.mcreator.rjsnaruto.client.renderer.FirballTestRenderer;
 import net.mcreator.rjsnaruto.client.renderer.CapybaraRenderer;
 
@@ -21,5 +23,7 @@ public class RjsNarutoModEntityRenderers {
 		event.registerEntityRenderer(RjsNarutoModEntities.NUIBARI.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(RjsNarutoModEntities.CAPYBARA.get(), CapybaraRenderer::new);
 		event.registerEntityRenderer(RjsNarutoModEntities.FIRBALL_TEST.get(), FirballTestRenderer::new);
+		event.registerEntityRenderer(RjsNarutoModEntities.LIGHTNINGBALL.get(), LightningballRenderer::new);
+		event.registerEntityRenderer(RjsNarutoModEntities.KIBA.get(), KibaRenderer::new);
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "rjs_naruto:models/item/kunai.obj.obj",
+  "textures": {
+    "None_steel.jpg.001": "rjs_naruto:blocks/texturescom_metalscratches0086_4_seamless_s",
+    "None_Whit_Cloth.jpg.001": "rjs_naruto:blocks/texturescom_leather0067_1_seamless_s",
+    "None": "rjs_naruto:blocks/texturescom_metalscratches0086_4_seamless_s",
+    "particle": "rjs_naruto:items/bone_sword_1"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "kiba",
+    "customModelName": "kiba:default",
+    "name": "Kiba",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Weapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "KibaRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelfireball",
+    "customBulletModelTexture": "lightningball.png",
+    "onBulletHitsBlock": {
+      "name": "LightningballProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "LightningballProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "LightningballWhileProjectileFlyingTick"
+    }
+  }
+}

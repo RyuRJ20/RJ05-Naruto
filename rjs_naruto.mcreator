@@ -3,6 +3,7 @@
     {
       "name": "Naruto",
       "type": "gui",
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "naruto",
@@ -1488,6 +1489,197 @@
         ]
       },
       "path": "~/Abilities"
+    },
+    {
+      "name": "NarutoSkills",
+      "type": "gui",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_skills",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/client/gui/NarutoSkillsScreen.java",
+          "src/main/java/net/mcreator/rjsnaruto/world/inventory/NarutoSkillsMenu.java"
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "LightningballProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightningball_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/LightningballProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "LightningballWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightningball_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/LightningballWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "Lightningball",
+      "type": "rangeditem",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightningball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/LightningballRenderer.java",
+          "src/main/resources/assets/rjs_naruto/models/item/lightningball.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/LightningballItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/LightningballEntity.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "Kiba",
+      "type": "rangeditem",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiba",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/kiba.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/KibaItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/KibaEntity.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/KibaRenderer.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Kibasword",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kibasword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/KibaswordItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/kibasword.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "KibaRangedItemUsed",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiba_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/KibaRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "LightningballRangedItemUsed",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightningball_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/LightningballRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "Hidan",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/HidanItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/hidan.json"
+        ]
+      },
+      "path": "~/Weapons"
     }
   ],
   "variable_elements": [
@@ -1511,6 +1703,7 @@
       "item.rjs_naruto.i_ce": "I Ce Portal Igniter",
       "item.rjs_naruto.naruto_card_3": "Itachi Anbu Card",
       "item.rjs_naruto.naruto_card_20": "Naruto Child Card",
+      "item.rjs_naruto.hidan": "Hidan",
       "item.rjs_naruto.naruto_card_4": "Konan Paper Card",
       "item.rjs_naruto.naruto_card_5": "Pain Card",
       "item.rjs_naruto.naruto_card_6": "Madara Card",
@@ -1518,6 +1711,7 @@
       "item.rjs_naruto.tab": "Tab",
       "item.rjs_naruto.naruto_card_1": "Sasuke Chidori Card",
       "item.rjs_naruto.naruto_card_2": "Nagato Card",
+      "item.rjs_naruto.lightningball": "Lightningball",
       "item.rjs_naruto.naruto_card_17": "Minato Card",
       "item.rjs_naruto.lol": "Lol",
       "item.rjs_naruto.naruto_card_16": "Hagoromo Card",
@@ -1531,9 +1725,11 @@
       "gui.rjs_naruto.naruto.button_chakra_control": "Chakra Control",
       "item.rjs_naruto.capybara_spawn_egg": "Capybara Spawn Egg",
       "gui.rjs_naruto.naruto.button_kenjutsu": "Kenjutsu",
+      "item.rjs_naruto.kiba": "Kiba",
       "item.rjs_naruto.naruto_card_11": "Kokuo Card",
       "key.rjs_naruto.naruto_gui": "Naruto GUI",
       "item.rjs_naruto.naruto_card_10": "Songoku Card",
+      "item.rjs_naruto.kibasword": "Kiba",
       "item.rjs_naruto.tab_item_1": "Tab Item 1",
       "itemGroup.tabnaruto_cards": "Naruto Cards",
       "item.rjs_naruto.nuibari": "Nuibari",

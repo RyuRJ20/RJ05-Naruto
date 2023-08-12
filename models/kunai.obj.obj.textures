@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "None_steel.jpg.001": "texturescom_metalscratches0086_4_seamless_s",
+        "None_Whit_Cloth.jpg.001": "texturescom_leather0067_1_seamless_s",
+        "None": "texturescom_metalscratches0086_4_seamless_s"
+      },
+      "name": "default"
+    }
+  }
+}

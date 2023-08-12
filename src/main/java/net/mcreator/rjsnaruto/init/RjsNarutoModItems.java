@@ -38,9 +38,13 @@ import net.mcreator.rjsnaruto.item.NarutoCard12Item;
 import net.mcreator.rjsnaruto.item.NarutoCard11Item;
 import net.mcreator.rjsnaruto.item.NarutoCard10Item;
 import net.mcreator.rjsnaruto.item.LolItem;
+import net.mcreator.rjsnaruto.item.LightningballItem;
 import net.mcreator.rjsnaruto.item.KusanagiItem;
 import net.mcreator.rjsnaruto.item.KubukiribochoItem;
+import net.mcreator.rjsnaruto.item.KibaswordItem;
+import net.mcreator.rjsnaruto.item.KibaItem;
 import net.mcreator.rjsnaruto.item.ICeItem;
+import net.mcreator.rjsnaruto.item.HidanItem;
 import net.mcreator.rjsnaruto.item.FirballTestItem;
 import net.mcreator.rjsnaruto.item.DimensionRealeseItem;
 import net.mcreator.rjsnaruto.item.BoneSwordItem;
@@ -81,4 +85,8 @@ public class RjsNarutoModItems {
 	public static final RegistryObject<Item> KUSANAGI = REGISTRY.register("kusanagi", () -> new KusanagiItem());
 	public static final RegistryObject<Item> BONE_SWORD = REGISTRY.register("bone_sword", () -> new BoneSwordItem());
 	public static final RegistryObject<Item> FIRBALL_TEST = REGISTRY.register("firball_test", () -> new FirballTestItem());
+	public static final RegistryObject<Item> LIGHTNINGBALL = REGISTRY.register("lightningball", () -> new LightningballItem());
+	public static final RegistryObject<Item> KIBA = REGISTRY.register("kiba", () -> new KibaItem());
+	public static final RegistryObject<Item> KIBASWORD = REGISTRY.register("kibasword", () -> new KibaswordItem());
+	public static final RegistryObject<Item> HIDAN = REGISTRY.register("hidan", () -> new HidanItem());
 }

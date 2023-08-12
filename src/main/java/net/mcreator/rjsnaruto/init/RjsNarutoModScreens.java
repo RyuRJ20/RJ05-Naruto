@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.rjsnaruto.client.gui.NarutoSkillsScreen;
 import net.mcreator.rjsnaruto.client.gui.NarutoScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -18,6 +19,7 @@ public class RjsNarutoModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			MenuScreens.register(RjsNarutoModMenus.NARUTO_SKILLS, NarutoSkillsScreen::new);
 			MenuScreens.register(RjsNarutoModMenus.NARUTO, NarutoScreen::new);
 		});
 	}
