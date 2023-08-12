@@ -58,9 +58,6 @@
       "locked_code": false,
       "registry_name": "dimension_realese_rightclicked",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rjsnaruto/procedures/DimensionRealeseRightclickedProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -108,9 +105,6 @@
       "locked_code": false,
       "registry_name": "fly_effect_startedapplied",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rjsnaruto/procedures/FlyEffectStartedappliedProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -323,7 +317,7 @@
       "name": "Chakra",
       "type": "overlay",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "chakra",
       "metadata": {
         "files": [
@@ -1422,14 +1416,14 @@
       "type": "rangeditem",
       "sortid": 98,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "firball_test",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rjsnaruto/item/FirballTestItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/FirballTestEntity.java",
           "src/main/java/net/mcreator/rjsnaruto/client/renderer/FirballTestRenderer.java",
-          "src/main/resources/assets/rjs_naruto/models/item/firball_test.json",
-          "src/main/java/net/mcreator/rjsnaruto/entity/FirballTestEntity.java"
+          "src/main/resources/assets/rjs_naruto/models/item/firball_test.json"
         ]
       },
       "path": "~/Abilities"
@@ -1442,9 +1436,6 @@
       "locked_code": false,
       "registry_name": "firball_test_while_projectile_flying_tick",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rjsnaruto/procedures/FirballTestWhileProjectileFlyingTickProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -1499,7 +1490,14 @@
       "path": "~/Abilities"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "chakra",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {

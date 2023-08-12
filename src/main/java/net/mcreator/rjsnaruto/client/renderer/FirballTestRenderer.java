@@ -27,6 +27,7 @@ public class FirballTestRenderer extends EntityRenderer<FirballTestEntity> {
 	@Override
 	public void render(FirballTestEntity entityIn, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource bufferIn, int packedLightIn) {
 		VertexConsumer vb = bufferIn.getBuffer(RenderType.entityCutout(this.getTextureLocation(entityIn)));
+		this.model.setupAnim(entityIn, 0, 0, partialTicks, 0, 0);
 		poseStack.pushPose();
 		poseStack.mulPose(Vector3f.YP.rotationDegrees(Mth.lerp(partialTicks, entityIn.yRotO, entityIn.getYRot()) - 90));
 		poseStack.mulPose(Vector3f.ZP.rotationDegrees(90 + Mth.lerp(partialTicks, entityIn.xRotO, entityIn.getXRot())));
