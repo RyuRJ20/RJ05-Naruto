@@ -2,6 +2,9 @@
 package net.mcreator.rjsnaruto.client.gui;
 
 import net.mcreator.rjsnaruto.network.RjsNarutoModVariables;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.util.FormattedCharSequence;
+import net.minecraft.util.FormattedCharSink;
 import org.checkerframework.checker.units.qual.h;
 
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +22,8 @@ import net.minecraft.client.Minecraft;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.platform.GlStateManager;
 
+import java.awt.*;
+
 @Mod.EventBusSubscriber({Dist.CLIENT})
 public class ChakraOverlay {
 	@SubscribeEvent(priority = EventPriority.NORMAL)
@@ -34,6 +39,7 @@ public class ChakraOverlay {
 			double z = 0;
 			Player entity = Minecraft.getInstance().player;
 			double chakra = (entity.getCapability(RjsNarutoModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RjsNarutoModVariables.PlayerVariables())).chakra;
+			double maxchakra = (entity.getCapability(RjsNarutoModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RjsNarutoModVariables.PlayerVariables())).maxchakra;
 
 
 			if (entity != null) {
@@ -51,9 +57,12 @@ public class ChakraOverlay {
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 
+			int barv = (int)(149-(chakra/maxchakra)*149d);
+
+			Minecraft.getInstance().font.drawShadow(event.getMatrixStack(), new TextComponent(chakra+"/"+maxchakra), posX - 90, 15, 16777215);
 
 			RenderSystem.setShaderTexture(0, new ResourceLocation("rjs_naruto:textures/screens/chakrabar.png"));
-			Minecraft.getInstance().gui.blit(event.getMatrixStack(), posX - 180,  20, 0, 0, 160, 16, 160, 16);
+			Minecraft.getInstance().gui.blit(event.getMatrixStack(), posX - 180 + barv + 3,  25, 0, 0, 147-barv, 6, 147-barv, 6);
 
 
 			RenderSystem.setShaderTexture(0, new ResourceLocation("rjs_naruto:textures/screens/chakra_guif.png"));

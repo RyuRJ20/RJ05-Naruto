@@ -8,8 +8,8 @@
       "registry_name": "naruto",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/client/gui/NarutoScreen.java",
-          "src/main/java/net/mcreator/rjsnaruto/world/inventory/NarutoMenu.java"
+          "src/main/java/net/mcreator/rjsnaruto/world/inventory/NarutoMenu.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/gui/NarutoScreen.java"
         ]
       }
     },
@@ -22,8 +22,8 @@
       "registry_name": "dimension_realese",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/DimensionRealeseItem.java",
-          "src/main/resources/assets/rjs_naruto/models/item/dimension_realese.json"
+          "src/main/resources/assets/rjs_naruto/models/item/dimension_realese.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/DimensionRealeseItem.java"
         ]
       }
     },
@@ -36,17 +36,17 @@
       "registry_name": "i_ce",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/i_ce.json",
-          "src/main/java/net/mcreator/rjsnaruto/world/teleporter/ICeTeleporter.java",
-          "src/main/java/net/mcreator/rjsnaruto/world/dimension/ICeDimension.java",
-          "src/main/resources/assets/rjs_naruto/models/block/i_ce_portal_ns.json",
-          "src/main/resources/assets/rjs_naruto/models/block/i_ce_portal_ew.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/ICeItem.java",
-          "src/main/resources/assets/rjs_naruto/blockstates/i_ce_portal.json",
           "src/main/resources/data/rjs_naruto/dimension_type/i_ce.json",
+          "src/main/resources/assets/rjs_naruto/models/block/i_ce_portal_ew.json",
+          "src/main/resources/assets/rjs_naruto/models/item/i_ce.json",
           "src/main/java/net/mcreator/rjsnaruto/world/teleporter/ICePortalShape.java",
+          "src/main/resources/assets/rjs_naruto/blockstates/i_ce_portal.json",
           "src/main/java/net/mcreator/rjsnaruto/block/ICePortalBlock.java",
-          "src/main/resources/data/rjs_naruto/dimension/i_ce.json"
+          "src/main/java/net/mcreator/rjsnaruto/world/dimension/ICeDimension.java",
+          "src/main/resources/data/rjs_naruto/dimension/i_ce.json",
+          "src/main/resources/assets/rjs_naruto/models/block/i_ce_portal_ns.json",
+          "src/main/java/net/mcreator/rjsnaruto/world/teleporter/ICeTeleporter.java",
+          "src/main/java/net/mcreator/rjsnaruto/item/ICeItem.java"
         ]
       }
     },
@@ -58,6 +58,9 @@
       "locked_code": false,
       "registry_name": "dimension_realese_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/DimensionRealeseRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -105,6 +108,9 @@
       "locked_code": false,
       "registry_name": "fly_effect_startedapplied",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FlyEffectStartedappliedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -153,8 +159,8 @@
       "registry_name": "rinnegan_fly",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/rinnegan_fly.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/RinneganFlyItem.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/RinneganFlyItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/rinnegan_fly.json"
         ]
       }
     },
@@ -241,8 +247,8 @@
       "registry_name": "nuibari",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NuibariItem.java",
           "src/main/java/net/mcreator/rjsnaruto/entity/NuibariEntity.java",
+          "src/main/java/net/mcreator/rjsnaruto/item/NuibariItem.java",
           "src/main/resources/assets/rjs_naruto/models/item/nuibari.json"
         ]
       }
@@ -333,8 +339,8 @@
       "registry_name": "lightning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/client/particle/LightningParticle.java",
-          "src/main/resources/assets/rjs_naruto/particles/lightning.json"
+          "src/main/resources/assets/rjs_naruto/particles/lightning.json",
+          "src/main/java/net/mcreator/rjsnaruto/client/particle/LightningParticle.java"
         ]
       }
     },
@@ -347,9 +353,9 @@
       "registry_name": "capybara",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/entity/CapybaraEntity.java",
           "src/main/java/net/mcreator/rjsnaruto/client/renderer/CapybaraRenderer.java",
-          "src/main/resources/assets/rjs_naruto/models/item/capybara_spawn_egg.json"
+          "src/main/resources/assets/rjs_naruto/models/item/capybara_spawn_egg.json",
+          "src/main/java/net/mcreator/rjsnaruto/entity/CapybaraEntity.java"
         ]
       }
     },
@@ -1078,8 +1084,8 @@
       "registry_name": "naruto_card_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard3Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_3.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_3.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard3Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1093,8 +1099,8 @@
       "registry_name": "naruto_card_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_4.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard4Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard4Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_4.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1138,8 +1144,8 @@
       "registry_name": "naruto_card_7",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard7Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_7.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_7.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard7Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1183,8 +1189,8 @@
       "registry_name": "naruto_card_10",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_10.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard10Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard10Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_10.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1198,8 +1204,8 @@
       "registry_name": "naruto_card_11",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard11Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_11.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_11.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard11Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1213,8 +1219,8 @@
       "registry_name": "naruto_card_12",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_12.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard12Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard12Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_12.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1228,8 +1234,8 @@
       "registry_name": "naruto_card_13",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard13Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_13.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_13.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard13Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1243,8 +1249,8 @@
       "registry_name": "naruto_card_14",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard14Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_14.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_14.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard14Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1258,8 +1264,8 @@
       "registry_name": "naruto_card_15",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard15Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_15.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_15.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard15Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1273,8 +1279,8 @@
       "registry_name": "naruto_card_16",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_16.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard16Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard16Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_16.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1288,8 +1294,8 @@
       "registry_name": "naruto_card_17",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard17Item.java",
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_17.json"
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_17.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard17Item.java"
         ]
       },
       "path": "~/sutom Items"
@@ -1303,8 +1309,8 @@
       "registry_name": "naruto_card_18",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_18.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard18Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard18Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_18.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1333,8 +1339,8 @@
       "registry_name": "naruto_card_20",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_20.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard20Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard20Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_20.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1348,8 +1354,8 @@
       "registry_name": "naruto_card_21",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_21.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard21Item.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard21Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_21.json"
         ]
       },
       "path": "~/sutom Items"
@@ -1363,8 +1369,8 @@
       "registry_name": "kubukiribocho",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rjs_naruto/models/item/kubukiribocho.json",
-          "src/main/java/net/mcreator/rjsnaruto/item/KubukiribochoItem.java"
+          "src/main/java/net/mcreator/rjsnaruto/item/KubukiribochoItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/kubukiribocho.json"
         ]
       },
       "path": "~/Weapons"
@@ -1390,8 +1396,8 @@
       "registry_name": "kusanagi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/KusanagiItem.java",
-          "src/main/resources/assets/rjs_naruto/models/item/kusanagi.json"
+          "src/main/resources/assets/rjs_naruto/models/item/kusanagi.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/KusanagiItem.java"
         ]
       },
       "path": "~/Weapons"
@@ -1405,8 +1411,8 @@
       "registry_name": "bone_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rjsnaruto/item/BoneSwordItem.java",
-          "src/main/resources/assets/rjs_naruto/models/item/bone_sword.json"
+          "src/main/resources/assets/rjs_naruto/models/item/bone_sword.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/BoneSwordItem.java"
         ]
       },
       "path": "~/Weapons"
@@ -1436,6 +1442,9 @@
       "locked_code": false,
       "registry_name": "firball_test_while_projectile_flying_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FirballTestWhileProjectileFlyingTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1488,6 +1497,40 @@
         ]
       },
       "path": "~/Abilities"
+    },
+    {
+      "name": "Narutocmd",
+      "type": "command",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "narutocmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/command/NarutocmdCommand.java"
+        ]
+      },
+      "path": "~/cmd"
+    },
+    {
+      "name": "Nqarutocmdp",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nqarutocmdp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/NqarutocmdpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/cmd"
     }
   ],
   "variable_elements": [
@@ -1495,7 +1538,13 @@
       "name": "chakra",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0.0"
+      "value": "100.0"
+    },
+    {
+      "name": "maxchakra",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
     }
   ],
   "sound_elements": [],
@@ -1570,6 +1619,10 @@
       },
       {
         "name": "Abilities",
+        "children": []
+      },
+      {
+        "name": "cmd",
         "children": []
       }
     ]

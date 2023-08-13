@@ -67,6 +67,7 @@ public class RjsNarutoModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.chakra = original.chakra;
+			clone.maxchakra = original.maxchakra;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -103,7 +104,8 @@ public class RjsNarutoModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double chakra = 0.0;
+		public double chakra = 100.0;
+		public double maxchakra = 100.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -113,12 +115,14 @@ public class RjsNarutoModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("chakra", chakra);
+			nbt.putDouble("maxchakra", maxchakra);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			chakra = nbt.getDouble("chakra");
+			maxchakra = nbt.getDouble("maxchakra");
 		}
 	}
 
@@ -144,6 +148,7 @@ public class RjsNarutoModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.chakra = message.data.chakra;
+					variables.maxchakra = message.data.maxchakra;
 				}
 			});
 			context.setPacketHandled(true);
