@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "250px-connivers_kunai",
+        "missing": "250px-connivers_kunai"
+      },
+      "name": "default"
+    }
+  }
+}

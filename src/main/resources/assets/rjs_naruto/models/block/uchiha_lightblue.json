@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rjs_naruto:blocks/uchiha7unbenannt",
+    "up": "rjs_naruto:blocks/uchiha7unbenannt",
+    "north": "rjs_naruto:blocks/uchiha7unbenannt",
+    "east": "rjs_naruto:blocks/uchiha7unbenannt",
+    "south": "rjs_naruto:blocks/uchiha7unbenannt",
+    "west": "rjs_naruto:blocks/uchiha7unbenannt",
+    "particle": "rjs_naruto:blocks/uchiha7unbenannt"
+  }
+}

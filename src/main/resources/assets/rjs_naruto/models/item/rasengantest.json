@@ -1,0 +1,9 @@
+{
+  "parent": "rjs_naruto:custom/rasengsan",
+  "textures": {
+    "0": "rjs_naruto:blocks/textusgdgdggsgssgre",
+    "1": "rjs_naruto:blocks/textusgdgdggsgssgre",
+    "2": "rjs_naruto:blocks/textgffffert_gure",
+    "particle": "rjs_naruto:items/rasenganstiched_texture"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "CUSTOM:UchihaItem"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      },
+      {
+        "value": "Blocks.CONCRETE#11"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UchihaBlue"
+    },
+    "name": "uchiha_blue_craft",
+    "namespace": "mod"
+  }
+}

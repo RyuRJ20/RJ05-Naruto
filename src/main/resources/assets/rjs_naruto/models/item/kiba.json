@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/kiba",
+  "textures": {
+    "4": "rjs_naruto:blocks/kiba",
+    "particle": "rjs_naruto:items/kiba"
+  }
+}

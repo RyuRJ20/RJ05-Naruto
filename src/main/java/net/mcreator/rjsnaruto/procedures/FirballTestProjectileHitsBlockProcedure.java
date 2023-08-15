@@ -2,6 +2,7 @@ package net.mcreator.rjsnaruto.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
@@ -19,6 +20,18 @@ public class FirballTestProjectileHitsBlockProcedure {
 			}
 		}
 		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, x, y, z, 7, true, Explosion.BlockInteraction.DESTROY);
+			_level.explode(null, x, y, z, 7, Explosion.BlockInteraction.DESTROY);
+		world.setBlock(new BlockPos(x + 1, y + 1, z), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x + 2, y + 1, z), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x + 3, y + 1, z), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x - 1, y + 1, z), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x - 2, y + 1, z), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x - 3, y + 1, z), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y + 1, z + 1), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y + 1, z + 2), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y + 1, z + 3), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y + 1, z - 1), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y + 1, z - 2), Blocks.FIRE.defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y + 1, z - 3), Blocks.FIRE.defaultBlockState(), 3);
 	}
 }

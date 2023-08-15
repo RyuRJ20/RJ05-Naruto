@@ -1,0 +1,9 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "rjs_naruto:models/item/katana2.obj",
+  "textures": {
+    "particle": "rjs_naruto:items/bone_sword_1"
+  }
+}
