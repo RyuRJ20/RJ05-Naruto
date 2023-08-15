@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 2,
     "texture": "bone_sword_1",
-    "customModelName": "kunai.obj:default",
+    "customModelName": "katana2",
     "name": "Hidan",
     "specialInfo": [],
     "creativeTab": {

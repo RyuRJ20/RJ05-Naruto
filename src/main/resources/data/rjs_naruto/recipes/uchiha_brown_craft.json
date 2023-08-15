@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_concrete"
+    },
+    "1": {
+      "item": "minecraft:brown_concrete"
+    },
+    "2": {
+      "item": "minecraft:brown_concrete"
+    },
+    "3": {
+      "item": "minecraft:brown_concrete"
+    },
+    "4": {
+      "item": "rjs_naruto:uchiha_item"
+    },
+    "5": {
+      "item": "minecraft:brown_concrete"
+    },
+    "6": {
+      "item": "minecraft:brown_concrete"
+    },
+    "7": {
+      "item": "minecraft:brown_concrete"
+    },
+    "8": {
+      "item": "minecraft:brown_concrete"
+    }
+  },
+  "result": {
+    "item": "rjs_naruto:uchiha_brown",
+    "count": 8
+  }
+}

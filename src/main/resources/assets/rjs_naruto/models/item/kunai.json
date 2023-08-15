@@ -1,0 +1,8 @@
+{
+  "parent": "rjs_naruto:custom/kunaimodel",
+  "textures": {
+    "0": "rjs_naruto:blocks/250px-connivers_kunai",
+    "missing": "rjs_naruto:blocks/250px-connivers_kunai",
+    "particle": "rjs_naruto:items/250px-connivers_kunai"
+  }
+}

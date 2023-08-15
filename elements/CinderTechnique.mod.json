@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "fire_release",
+    "customModelName": "fire_release:default",
+    "name": "Cinder Technique",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoAbilities"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.flintandsteel.use"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "CinderTechniqueRangedItemUsed"
+    },
+    "bulletPower": 0.3,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Blocks.FIRE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "CinderTechniqueProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "CinderTechniqueProjectileHitsBlock"
+    }
+  }
+}

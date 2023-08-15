@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/lightning_release",
+  "textures": {
+    "1": "rjs_naruto:blocks/lightning_release",
+    "particle": "rjs_naruto:items/lightning_release"
+  }
+}

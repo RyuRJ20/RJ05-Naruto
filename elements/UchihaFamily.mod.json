@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Uchiha Family",
+    "achievementDescription": "Craft an Uchiha Symbol to show the Power of the Uchiha Clan to the world!",
+    "achievementIcon": {
+      "value": "CUSTOM:UchihaItem"
+    },
+    "background": "chakrabar.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "UchihaCraft",
+      "UchihaBlueCraft",
+      "UchihaBrownCraft",
+      "UchihaCyanCraft",
+      "UchihaGrayCraft",
+      "UchihaGreenCraft",
+      "UchihaLightblueCraft",
+      "UchihaLightgrayCraft",
+      "UchihaLimeCraft",
+      "UchihaMagentaCraft",
+      "UchihaOrangeCraft",
+      "UchihaPinkCraft",
+      "UchihaPurpleCraft",
+      "UchihaRedCraft",
+      "UchihaWhiteCraft",
+      "UchihaYellowCraft"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 30,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:TheNarutoWorld"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"32\" y=\"27\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:UchihaItem</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

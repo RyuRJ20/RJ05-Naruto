@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "rjs_naruto:uchiha_item"
+    },
+    "title": {
+      "translate": "advancements.uchiha_family.title"
+    },
+    "description": {
+      "translate": "advancements.uchiha_family.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "uchiha_family": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rjs_naruto:uchiha_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "rjs_naruto:uchiha_craft",
+      "rjs_naruto:uchiha_blue_craft",
+      "rjs_naruto:uchiha_brown_craft",
+      "rjs_naruto:uchiha_cyan_craft",
+      "rjs_naruto:uchiha_gray_craft",
+      "rjs_naruto:uchiha_green_craft",
+      "rjs_naruto:uchiha_lightblue_craft",
+      "rjs_naruto:uchiha_lightgray_craft",
+      "rjs_naruto:uchiha_lime_craft",
+      "rjs_naruto:uchiha_magenta_craft",
+      "rjs_naruto:uchiha_orange_craft",
+      "rjs_naruto:uchiha_pink_craft",
+      "rjs_naruto:uchiha_purple_craft",
+      "rjs_naruto:uchiha_red_craft",
+      "rjs_naruto:uchiha_white_craft",
+      "rjs_naruto:uchiha_yellow_craft"
+    ]
+  },
+  "parent": "rjs_naruto:the_naruto_world"
+}

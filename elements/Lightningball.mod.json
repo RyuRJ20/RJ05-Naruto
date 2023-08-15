@@ -34,7 +34,7 @@
     "bulletItemTexture": {
       "value": ""
     },
-    "bulletModel": "Modelfireball",
+    "bulletModel": "fireballsmall",
     "customBulletModelTexture": "lightningball.png",
     "onBulletHitsBlock": {
       "name": "LightningballProjectileHitsBlock"

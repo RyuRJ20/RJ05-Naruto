@@ -32,6 +32,15 @@
     "onItemInInventoryTick": {
       "name": "RinneganFlyItemInInventoryTick"
     },
+    "onStoppedUsing": {
+      "name": "RinneganFlyItemIsDroppedByPlayer"
+    },
+    "onDroppedByPlayer": {
+      "name": "RinneganFlyItemIsDroppedByPlayer"
+    },
+    "onFinishUsingItem": {
+      "name": "RinneganFlyItemIsDroppedByPlayer"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

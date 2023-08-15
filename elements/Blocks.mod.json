@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Blocks",
+    "icon": {
+      "value": "CUSTOM:UchihaBlack"
+    },
+    "showSearch": false
+  }
+}

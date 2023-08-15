@@ -59,6 +59,9 @@
       "locked_code": false,
       "registry_name": "dimension_realese_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/DimensionRealeseRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -106,6 +109,9 @@
       "locked_code": false,
       "registry_name": "fly_effect_startedapplied",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FlyEffectStartedappliedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1422,9 +1428,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rjsnaruto/item/FirballTestItem.java",
-          "src/main/java/net/mcreator/rjsnaruto/entity/FirballTestEntity.java",
           "src/main/java/net/mcreator/rjsnaruto/client/renderer/FirballTestRenderer.java",
-          "src/main/resources/assets/rjs_naruto/models/item/firball_test.json"
+          "src/main/resources/assets/rjs_naruto/models/item/firball_test.json",
+          "src/main/java/net/mcreator/rjsnaruto/entity/FirballTestEntity.java"
         ]
       },
       "path": "~/Abilities"
@@ -1437,6 +1443,9 @@
       "locked_code": false,
       "registry_name": "firball_test_while_projectile_flying_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FirballTestWhileProjectileFlyingTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1680,6 +1689,1529 @@
         ]
       },
       "path": "~/Weapons"
+    },
+    {
+      "name": "FireballRangedItemUsed",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FireballRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "Fireball",
+      "type": "rangeditem",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/fireball.json",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/FireballRenderer.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/FireballEntity.java",
+          "src/main/java/net/mcreator/rjsnaruto/item/FireballItem.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "Kunai",
+      "type": "rangeditem",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/kunai.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/KunaiItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/KunaiEntity.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Rasengantest",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasengantest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/RasengantestItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/rasengantest.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "RasengantestLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasengantest_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/RasengantestLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "NarutoCard22",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_card_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/NarutoCard22Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/naruto_card_22.json"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "RinneganFlyItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinnegan_fly_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/RinneganFlyItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlameResistanceTechniqueRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_resistance_technique_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FlameResistanceTechniqueRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "FlameResistanceTechnique",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_resistance_technique",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/flame_resistance_technique.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/FlameResistanceTechniqueItem.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "FlameResistanceTechniquePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_resistance_technique_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FlameResistanceTechniquePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "CinderTechnique",
+      "type": "rangeditem",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinder_technique",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/cinder_technique.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/CinderTechniqueItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/CinderTechniqueEntity.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "CinderTechniqueProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinder_technique_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/CinderTechniqueProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "CinderTechniqueRangedItemUsed",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinder_technique_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/CinderTechniqueRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "TestFireDragon",
+      "type": "rangeditem",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_fire_dragon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/test_fire_dragon.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/TestFireDragonItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/TestFireDragonRenderer.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/TestFireDragonEntity.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "FireDragonTest",
+      "type": "livingentity",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_dragon_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/entity/FireDragonTestEntity.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/FireDragonTestRenderer.java",
+          "src/main/resources/assets/rjs_naruto/models/item/fire_dragon_test_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "Fireballsummon",
+      "type": "livingentity",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireballsummon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/FireballsummonRenderer.java",
+          "src/main/resources/assets/rjs_naruto/models/item/fireballsummon_spawn_egg.json",
+          "src/main/java/net/mcreator/rjsnaruto/entity/FireballsummonEntity.java"
+        ]
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "IncineratingHailTechniqueRightclicked",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incinerating_hail_technique_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/IncineratingHailTechniqueRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "IncineratingHailTechniqueLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incinerating_hail_technique_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/IncineratingHailTechniqueLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "IncineratingHailTechnique",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incinerating_hail_technique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/IncineratingHailTechniqueItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/incinerating_hail_technique.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "ElementSkinFireRightclicked",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_skin_fire_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/ElementSkinFireRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "ElementSkinFire",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_skin_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/ElementSkinFireItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/element_skin_fire.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "ElementSkinFireOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_skin_fire_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/ElementSkinFireOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "ElementSkinFirePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_skin_fire_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/ElementSkinFirePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "FireballsummonNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireballsummon_natural_entity_spawning_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FireballsummonNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "FireballsummonPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireballsummon_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/FireballsummonPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "ElementSkinLightningRightclicked",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_skin_lightning_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/ElementSkinLightningRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "ElementSkinLightning",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_skin_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/ElementSkinLightningItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/element_skin_lightning.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "GreatLightningballProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_lightningball_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/GreatLightningballProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "GreatLightningballWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_lightningball_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/GreatLightningballWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "GreatLightningballRangedItemUsed",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_lightningball_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/GreatLightningballRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "GreatLightningball",
+      "type": "rangeditem",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_lightningball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/GreatLightningballItem.java",
+          "src/main/java/net/mcreator/rjsnaruto/entity/GreatLightningballEntity.java",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/GreatLightningballRenderer.java",
+          "src/main/resources/assets/rjs_naruto/models/item/great_lightningball.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "BurstTechniqueLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_technique_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/BurstTechniqueLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "BurstTechnique",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_technique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/BurstTechniqueItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/burst_technique.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "BurstTechniqueOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_technique_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/BurstTechniqueOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "BurstTechniqueNewLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_technique_new_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/BurstTechniqueNewLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "BurstTechniqueNew",
+      "type": "tool",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_technique_new",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/burst_technique_new.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/BurstTechniqueNewItem.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "LightningSpeed",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_speed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/item/LightningSpeedItem.java",
+          "src/main/resources/assets/rjs_naruto/models/item/lightning_speed.json"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "LightningSpeedRightclicked",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_speed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/LightningSpeedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "UchihaBlack",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_black.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaBlackBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_black.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_black.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blocks",
+      "type": "tab",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "UchihaBlue",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_blue.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_blue.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaBlueBlock.java",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_blue.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaBrown",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_brown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaBrownBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_brown.json",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_brown.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_brown.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaCyan",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_cyan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaCyanBlock.java",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_cyan.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_cyan.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_cyan.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaGray",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_gray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_gray.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_gray.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaGrayBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_gray.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaGreen",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaGreenBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_green.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_green.json",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_green.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaLightblue",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_lightblue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_lightblue.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaLightblueBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_lightblue.json",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_lightblue.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaLightgray",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_lightgray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_lightgray.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_lightgray.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_lightgray.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaLightgrayBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaLime",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_lime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_lime.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaLimeBlock.java",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_lime.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_lime.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaMagenta",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_magenta.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_magenta.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaMagentaBlock.java",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_magenta.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaOrange",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_orange.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaOrangeBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_orange.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_orange.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaPink",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_pink.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_pink.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_pink.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaPinkBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaPurple",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_purple.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_purple.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_purple.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaPurpleBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaRed",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_red.json",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_red.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_red.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaRedBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaWhite",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_white.json",
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaWhiteBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_white.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_white.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaYellow",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/block/UchihaYellowBlock.java",
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_yellow.json",
+          "src/main/resources/assets/rjs_naruto/models/block/uchiha_yellow.json",
+          "src/main/resources/assets/rjs_naruto/blockstates/uchiha_yellow.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UchihaItem",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rjs_naruto/models/item/uchiha_item.json",
+          "src/main/java/net/mcreator/rjsnaruto/item/UchihaItemItem.java"
+        ]
+      },
+      "path": "~/sutom Items"
+    },
+    {
+      "name": "UchihaBlackCraft",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_black_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/crafting_table.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaCraft",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaBlueCraft",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_blue_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_blue_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaBrownCraft",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_brown_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_brown_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaCyanCraft",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_cyan_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_cyan_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaGrayCraft",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_gray_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_gray_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaGreenCraft",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_green_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_green_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaLightblueCraft",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_lightblue_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_lightblue_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaLightgrayCraft",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_lightgray_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_lightgray_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaLimeCraft",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_lime_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_lime_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaMagentaCraft",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_magenta_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_magenta_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaOrangeCraft",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_orange_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_orange_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaPinkCraft",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_pink_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_pink_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaPurpleCraft",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_purple_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_purple_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaRedCraft",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_red_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_red_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaWhiteCraft",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_white_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_white_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "UchihaYellowCraft",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_yellow_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/recipes/uchiha_yellow_craft.json"
+        ]
+      },
+      "path": "~/Recipiece"
+    },
+    {
+      "name": "Gunbai1RangedItemUsed",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunbai_1_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/Gunbai1RangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Gunbai1",
+      "type": "rangeditem",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunbai_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/entity/Gunbai1Entity.java",
+          "src/main/java/net/mcreator/rjsnaruto/item/Gunbai1Item.java",
+          "src/main/resources/assets/rjs_naruto/models/item/gunbai_1.json",
+          "src/main/java/net/mcreator/rjsnaruto/client/renderer/Gunbai1Renderer.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "UchihaFamily",
+      "type": "achievement",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchiha_family",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/advancements/uchiha_family.json"
+        ]
+      },
+      "path": "~/Advancement"
+    },
+    {
+      "name": "TheNarutoWorld",
+      "type": "achievement",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_naruto_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rjs_naruto/advancements/the_naruto_world.json"
+        ]
+      },
+      "path": "~/Advancement"
+    },
+    {
+      "name": "NarutoWorldSpawn",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_world_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rjsnaruto/procedures/NarutoWorldSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advancement"
     }
   ],
   "variable_elements": [
@@ -1693,22 +3225,24 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "gui.rjs_naruto.naruto.label_skills": "Skills",
+      "item.rjs_naruto.fire_dragon_test_spawn_egg": "Fire Dragon Test Spawn Egg",
       "item.rjs_naruto.firball_test": "Firball Test",
+      "gui.rjs_naruto.naruto.label_skills": "Skills",
       "entity.rjs_naruto.capybara": "Capybara",
-      "item.rjs_naruto.kusanagi": "Kusanagi",
       "item.rjs_naruto.naruto_card_7": "Shukaku Card",
+      "item.rjs_naruto.kunai": "Kunai",
       "item.rjs_naruto.naruto_card_8": "Matatabi Card",
+      "block.rjs_naruto.uchiha_white": "Uchiha White",
       "item.rjs_naruto.naruto_card_9": "Isobu Card",
-      "item.rjs_naruto.i_ce": "I Ce Portal Igniter",
       "item.rjs_naruto.naruto_card_3": "Itachi Anbu Card",
       "item.rjs_naruto.naruto_card_20": "Naruto Child Card",
-      "item.rjs_naruto.hidan": "Hidan",
       "item.rjs_naruto.naruto_card_4": "Konan Paper Card",
+      "block.rjs_naruto.uchiha_black": "Uchiha Black",
       "item.rjs_naruto.naruto_card_5": "Pain Card",
+      "item.rjs_naruto.naruto_card_22": "Ameyuri Card",
       "item.rjs_naruto.naruto_card_6": "Madara Card",
       "item.rjs_naruto.naruto_card_21": "Kakashi Anbu Card",
-      "item.rjs_naruto.tab": "Tab",
+      "block.rjs_naruto.uchiha_magenta": "Uchiha Magenta",
       "item.rjs_naruto.naruto_card_1": "Sasuke Chidori Card",
       "item.rjs_naruto.naruto_card_2": "Nagato Card",
       "item.rjs_naruto.lightningball": "Lightningball",
@@ -1716,29 +3250,68 @@
       "item.rjs_naruto.lol": "Lol",
       "item.rjs_naruto.naruto_card_16": "Hagoromo Card",
       "item.rjs_naruto.naruto_card_19": "Kisame Card",
+      "item.rjs_naruto.cinder_technique": "Cinder Technique",
+      "item.rjs_naruto.uchiha_item": "Uchiha Item",
       "item.rjs_naruto.naruto_card_18": "Jiraiya Card",
+      "item.rjs_naruto.rasengantest": "Rasengantest",
+      "block.rjs_naruto.uchiha_cyan": "Uchiha Cyan",
       "item.rjs_naruto.dimension_realese": "Dimension Realese",
       "item.rjs_naruto.naruto_card_13": "Chomei Card",
+      "item.rjs_naruto.great_lightningball": "Great Lightningball",
       "item.rjs_naruto.naruto_card_12": "Saiken Card",
+      "item.rjs_naruto.fireballsummon_spawn_egg": "Fireballsummon Spawn Egg",
+      "entity.rjs_naruto.fireballsummon": "Fireballsummon",
       "item.rjs_naruto.naruto_card_15": "Kurama Card",
       "item.rjs_naruto.naruto_card_14": "Gyuki Card",
-      "gui.rjs_naruto.naruto.button_chakra_control": "Chakra Control",
+      "item.rjs_naruto.element_skin_lightning": "Element Skin Lightning",
+      "block.rjs_naruto.uchiha_yellow": "Uchiha Yellow",
       "item.rjs_naruto.capybara_spawn_egg": "Capybara Spawn Egg",
-      "gui.rjs_naruto.naruto.button_kenjutsu": "Kenjutsu",
+      "block.rjs_naruto.uchiha_lime": "Uchiha Lime",
+      "item.rjs_naruto.incinerating_hail_technique": "Incinerating Hail Technique",
+      "block.rjs_naruto.uchiha_lightgray": "Uchiha Lightgray",
+      "item.rjs_naruto.fireball": "Fireball",
+      "block.rjs_naruto.uchiha_lightblue": "Uchiha Lightblue",
       "item.rjs_naruto.kiba": "Kiba",
+      "block.rjs_naruto.uchiha_blue": "Uchiha Blue",
       "item.rjs_naruto.naruto_card_11": "Kokuo Card",
       "key.rjs_naruto.naruto_gui": "Naruto GUI",
       "item.rjs_naruto.naruto_card_10": "Songoku Card",
       "item.rjs_naruto.kibasword": "Kiba",
+      "item.rjs_naruto.lightning_speed": "Lightning Speed",
       "item.rjs_naruto.tab_item_1": "Tab Item 1",
-      "itemGroup.tabnaruto_cards": "Naruto Cards",
       "item.rjs_naruto.nuibari": "Nuibari",
-      "item.rjs_naruto.bone_sword": "Bone Sword",
-      "itemGroup.tabweapons": "Weapons",
       "item.rjs_naruto.rinnegan_fly": "Rinnegan Fly",
+      "block.rjs_naruto.uchiha_brown": "Uchiha Brown",
+      "advancements.uchiha_family.descr": "Craft an Uchiha Symbol to show the Power of the Uchiha Clan to the world!",
+      "item.rjs_naruto.gunbai_1": "Gunbai 1",
+      "item.rjs_naruto.test_fire_dragon": "Test Fire Dragon",
+      "item.rjs_naruto.burst_technique_new": "Burst Technique",
+      "item.rjs_naruto.kusanagi": "Kusanagi",
+      "block.rjs_naruto.uchiha_pink": "Uchiha Pink",
+      "block.rjs_naruto.uchiha_red": "Uchiha Red",
+      "item.rjs_naruto.i_ce": "I Ce Portal Igniter",
+      "item.rjs_naruto.hidan": "Hidan",
+      "itemGroup.tabblocks": "Blocks",
+      "item.rjs_naruto.element_skin_fire": "Element Skin Fire",
+      "block.rjs_naruto.uchiha_purple": "Uchiha Purple",
+      "item.rjs_naruto.tab": "Tab",
+      "entity.rjs_naruto.fire_dragon_test": "Fire Dragon Test",
+      "block.rjs_naruto.uchiha_gray": "Uchiha Gray",
+      "advancements.the_naruto_world.title": "The Naruto World",
+      "block.rjs_naruto.uchiha_green": "Uchiha Green",
+      "gui.rjs_naruto.naruto.button_chakra_control": "Chakra Control",
+      "advancements.the_naruto_world.descr": "Spawn into a world with the Naruto Mod installed",
+      "item.rjs_naruto.flame_resistance_technique": "Flame Resistance Technique",
+      "gui.rjs_naruto.naruto.button_kenjutsu": "Kenjutsu",
+      "itemGroup.tabnaruto_cards": "Naruto Cards",
+      "item.rjs_naruto.bone_sword": "Bone Sword",
+      "item.rjs_naruto.burst_technique": "Burst Technique",
+      "itemGroup.tabweapons": "Weapons",
       "item.rjs_naruto.kubukiribocho": "Kubukiribocho",
+      "advancements.uchiha_family.title": "Uchiha Family",
       "effect.rjs_naruto.fly": "Fly",
-      "itemGroup.tabnaruto_abilities": "Naruto Abilities"
+      "itemGroup.tabnaruto_abilities": "Naruto Abilities",
+      "block.rjs_naruto.uchiha_orange": "Uchiha Orange"
     }
   },
   "foldersRoot": {
@@ -1766,6 +3339,22 @@
       },
       {
         "name": "Abilities",
+        "children": []
+      },
+      {
+        "name": "Entitys",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipiece",
+        "children": []
+      },
+      {
+        "name": "Advancement",
         "children": []
       }
     ]

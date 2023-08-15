@@ -9,7 +9,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.rjsnaruto.entity.LightningballEntity;
-import net.mcreator.rjsnaruto.client.model.Modelfireball;
+import net.mcreator.rjsnaruto.client.model.fireballsmall;
 
 import com.mojang.math.Vector3f;
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -17,11 +17,11 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class LightningballRenderer extends EntityRenderer<LightningballEntity> {
 	private static final ResourceLocation texture = new ResourceLocation("rjs_naruto:textures/entities/lightningball.png");
-	private final Modelfireball model;
+	private final fireballsmall model;
 
 	public LightningballRenderer(EntityRendererProvider.Context context) {
 		super(context);
-		model = new Modelfireball(context.bakeLayer(Modelfireball.LAYER_LOCATION));
+		model = new fireballsmall(context.bakeLayer(fireballsmall.LAYER_LOCATION));
 	}
 
 	@Override

@@ -1,0 +1,7 @@
+{
+  "parent": "rjs_naruto:custom/gunbai_1",
+  "textures": {
+    "3": "rjs_naruto:blocks/gunbai_1",
+    "particle": "rjs_naruto:items/gunbai_1"
+  }
+}

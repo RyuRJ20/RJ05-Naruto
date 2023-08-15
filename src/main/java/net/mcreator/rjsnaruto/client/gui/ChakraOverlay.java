@@ -1,7 +1,6 @@
 
 package net.mcreator.rjsnaruto.client.gui;
 
-import net.mcreator.rjsnaruto.network.RjsNarutoModVariables;
 import org.checkerframework.checker.units.qual.h;
 
 import net.minecraftforge.fml.common.Mod;
@@ -26,41 +25,30 @@ public class ChakraOverlay {
 		if (event.getType() == RenderGameOverlayEvent.ElementType.ALL) {
 			int w = event.getWindow().getGuiScaledWidth();
 			int h = event.getWindow().getGuiScaledHeight();
-			int posX = w;
-			int posY = h;
+			int posX = w / 2;
+			int posY = h / 2;
 			Level world = null;
 			double x = 0;
 			double y = 0;
 			double z = 0;
 			Player entity = Minecraft.getInstance().player;
-			double chakra = (entity.getCapability(RjsNarutoModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RjsNarutoModVariables.PlayerVariables())).chakra;
-
-
 			if (entity != null) {
 				world = entity.level;
 				x = entity.getX();
 				y = entity.getY();
 				z = entity.getZ();
 			}
-
-			
 			RenderSystem.disableDepthTest();
 			RenderSystem.depthMask(false);
 			RenderSystem.enableBlend();
 			RenderSystem.setShader(GameRenderer::getPositionTexShader);
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
+			if (true) {
+				RenderSystem.setShaderTexture(0, new ResourceLocation("rjs_naruto:textures/screens/chakra_guif.png"));
+				Minecraft.getInstance().gui.blit(event.getMatrixStack(), posX + -210, posY + 65, 0, 0, 160, 16, 160, 16);
 
-
-			RenderSystem.setShaderTexture(0, new ResourceLocation("rjs_naruto:textures/screens/chakrabar.png"));
-			Minecraft.getInstance().gui.blit(event.getMatrixStack(), posX - 180,  20, 0, 0, 160, 16, 160, 16);
-
-
-			RenderSystem.setShaderTexture(0, new ResourceLocation("rjs_naruto:textures/screens/chakra_guif.png"));
-			Minecraft.getInstance().gui.blit(event.getMatrixStack(), posX - 180, 20, 0, 0, 160, 16, 160, 16);
-
-
-
+			}
 			RenderSystem.depthMask(true);
 			RenderSystem.defaultBlendFunc();
 			RenderSystem.enableDepthTest();

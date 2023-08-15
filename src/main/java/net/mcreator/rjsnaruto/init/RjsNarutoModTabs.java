@@ -14,6 +14,7 @@ public class RjsNarutoModTabs {
 	public static CreativeModeTab TAB_NARUTO_CARDS;
 	public static CreativeModeTab TAB_NARUTO_ABILITIES;
 	public static CreativeModeTab TAB_WEAPONS;
+	public static CreativeModeTab TAB_BLOCKS;
 
 	public static void load() {
 		TAB_NARUTO_CARDS = new CreativeModeTab("tabnaruto_cards") {
@@ -42,6 +43,17 @@ public class RjsNarutoModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(RjsNarutoModItems.KUBUKIRIBOCHO.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_BLOCKS = new CreativeModeTab("tabblocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(RjsNarutoModBlocks.UCHIHA_BLACK.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
